@@ -115,6 +115,7 @@ console.log(x);
  *  Coding Challange 1
  */
 
+ /*
  var markMass = 90; // kg
  var johnMass = 85; // kg
  var markHeight = 1.6; // meters
@@ -128,3 +129,35 @@ console.log(x);
 
 
  console.log("Is Mark's BMI higher than John's BMI? " + higherBmi)
+ */
+
+ /***
+  * If/Else statement
+  */
+
+  var firstName = 'John';
+  var civilStatus = 'single';
+
+  var isMarried = true;
+  if (isMarried) {
+      console.log(firstName + ' is married!');
+  } else {
+      console.log(firstName + ' will hopefully marry soon :)');
+  }
+
+
+var markMass = 90; // kg
+ var johnMass = 85; // kg
+ var markHeight = 1.6; // meters
+ var johnHeight = 1.45; // meters
+
+ var markBmi = markMass / (markHeight * markHeight);
+ var johnBmi = johnMass / (johnHeight * johnHeight);
+
+ var higherBmi = markBmi > johnBmi;
+
+if (markBmi > johnBmi) {
+    console.log('Mark\'s BMI is higher than John\'s.');
+} else {
+    console.log("John\'s BMI is higher than Mark\'s.");
+}
