@@ -1,6 +1,6 @@
 /********************
-* Variables and data types
-**************************/
+ * Variables and data types
+ **************************/
 /* var firstName = 'John';
 console.log(firstName)
 
@@ -42,12 +42,11 @@ var lastName = prompt('What is his last Name?');
 console.log(firstName + ' ' + lastName);
 */
 
-
 /*********************
  * Basic Operators
  ********************/
 
- /*
+/*
 var year, yearJohn, yearMark;
 now = 2019;
 ageJohn = 28;
@@ -82,7 +81,7 @@ console.log(typeof x);
  * Operator precedence
  */
 
- /*
+/*
  var now = 2019;
  var yearJohn = 1989;
  var fullAge = 18;
@@ -115,7 +114,7 @@ console.log(x);
  *  Coding Challange 1
  */
 
- /*
+/*
  var markMass = 90; // kg
  var johnMass = 85; // kg
  var markHeight = 1.6; // meters
@@ -131,9 +130,9 @@ console.log(x);
  console.log("Is Mark's BMI higher than John's BMI? " + higherBmi)
  */
 
- /***
-  * If/Else statement
-  */
+/***
+ * If/Else statement
+ */
 /*
   var firstName = 'John';
   var civilStatus = 'single';
@@ -168,7 +167,7 @@ if (markBmi > johnBmi) {
  * Boolean logic
  */
 
- /*
+/*
  var firstName = 'John';
  var age = 20;
 
@@ -183,12 +182,11 @@ if (markBmi > johnBmi) {
  }
  */
 
+/*************
+ *  The Ternary operator and Switch statements
+ */
 
- /*************
-  *  The Ternary operator and Switch statements
-  */
-
- /*  var firstName = 'John';
+/*  var firstName = 'John';
   var age = 22;
 
 
@@ -238,3 +236,22 @@ switch (true) {
     default:
         console.log(firstName + ' is a man.')        
 } */
+
+/**
+ * Truthy and Falsy values and equality operators
+ */
+
+var height;
+
+height = "23";
+
+if (height || height === 0) {
+  console.log("The variable is defined");
+} else {
+  console.log("Variable has NOT been defined");
+}
+
+// Equality Operators
+if (height == "23") {
+  console.log("The == operator does type coercion!");
+}
