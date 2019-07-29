@@ -241,7 +241,7 @@ switch (true) {
  * Truthy and Falsy values and equality operators
  */
 
-var height;
+/* var height;
 
 height = "23";
 
@@ -254,4 +254,32 @@ if (height || height === 0) {
 // Equality Operators
 if (height == "23") {
   console.log("The == operator does type coercion!");
+}
+ */
+
+/******
+ *  Coding Challange 2
+ */
+
+var johnAverage = (89 + 120 + 103) / 3;
+console.log(johnAverage);
+
+var mikeAverage = (116 + 94 + 123) / 3;
+console.log(mikeAverage);
+
+var maryAverage = (97 + 134 + 105) / 3;
+console.log("Mary's average is " + maryAverage);
+
+if (johnAverage > mikeAverage && johnAverage > maryAverage) {
+  console.log(
+    "John's team is the winner with an average score of " + johnAverage
+  );
+} else if (mikeAverage > johnAverage && mikeAverage > maryAverage) {
+  console.log(
+    "Mike's team is the winner with an average score of " + mikeAverage
+  );
+} else if (maryAverage > johnAverage && maryAverage > mikeAverage) {
+  console.log("Mary is the winner with an average score of " + maryAverage);
+} else {
+  console.log("It's a draw");
 }
