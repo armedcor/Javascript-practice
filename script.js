@@ -454,3 +454,37 @@ console.log(jane); */
 
 john.calcAge();
 console.log(john); */
+
+/***********
+ * Coding challange 4
+ */
+
+/* var mark = {
+  firstName: "Mark",
+  lastName: "Smith",
+  mass: 90,
+  height: 1.95,
+  calcBmi: function() {
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi;
+  }
+};
+
+var john = {
+  firstName: "John",
+  lastName: "Smith",
+  mass: 85,
+  height: 1.69,
+  calcBmi: function() {
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi;
+  }
+};
+
+if (mark.calcBmi() > john.calcBmi()) {
+  console.log("Mark has a higher BMI than John with a BMI of " + mark.bmi);
+} else if (john.bmi > mark.bmi) {
+  console.log("John has a higher BMI than Mark with a BMI of " + john.bmi);
+} else {
+  console.log("Both John and Mark have the same BMI.");
+} */
