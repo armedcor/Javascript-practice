@@ -338,3 +338,41 @@ yearsUntilRetirement(1948, "Mike"); */
 console.log(whatDoYouDo("teacher", "John"));
 console.log(whatDoYouDo("designer", "Jane"));
 console.log(whatDoYouDo("retired", "Mark")); */
+
+/***********
+ *  Arrays
+ */
+
+// Initialize new Array
+/* var names = ["John", "Mark", "Jane"];
+var years = new Array(1990, 1969, 1948);
+console.log(names[1]);
+console.log(names);
+console.log(names.length);
+
+// Mutate array data
+names[1] = "Ben";
+names[5] = "Mary";
+console.log(names);
+
+// Different data types
+
+var john = ["John", "Smith", 1990, "designer", false];
+
+john.push("blue");
+john.unshift("Mr.");
+console.log(john);
+console.log(typeof john);
+
+john.pop();
+john.shift();
+console.log(john);
+
+console.log(john.indexOf(23));
+
+var isDesigner =
+  john.indexOf("designer") === -1
+    ? "John is Not a designer"
+    : "John IS a designer";
+
+console.log(isDesigner); */
